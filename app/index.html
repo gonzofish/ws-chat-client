@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>WS Client</title>
+        <link href="app.css" rel="stylesheet"></link>
+    </head>
+
+    <body>
+        <div class="messages">
+
+        </div>
+
+        <form action="" id="message-form" onsubmit="return window.sendMessage(this.message);">
+            <input autocomplete="off" id="message" placeholder="Enter message..." size="20" type="text" />
+            <button type="submit">
+                Send
+            </button>
+        </form>
+
+        <script src="app.js"></script>
+    </body>
+</html>
