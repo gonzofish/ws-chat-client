@@ -16,7 +16,9 @@ To install run
 npm i
 ```
 
-And to run the server
+## Running the Client
+
+To run the client app
 
 ```shell
 npm start
